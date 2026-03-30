@@ -68,12 +68,13 @@ Each role has specific permissions and functionalities implemented using JWT-bas
 
 DoctorAppointment-master/
 │
-├── client/          Frontend (React)
-├── server/          Backend (Node + Express)
-│   ├── routes/      API routes
-│   ├── controllers/ Business logic
-│   ├── models/      Database schemas
-│   └── middleware/  Authentication middleware
+├── client/ # Frontend (React)
+│
+├── server/ # Backend (Node + Express)
+│ ├── routes/ # API routes
+│ ├── controllers/ # Business logic
+│ ├── models/ # Database schemas
+│ └── middleware/ # Authentication middleware
 │
 └── README.md
 
